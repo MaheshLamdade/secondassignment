@@ -9,11 +9,49 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <style>
+/*class written for navbar*/
 .navadj
 {
   float: right;
-}
 
+}
+/**/
+
+/*classes for banner */
+.banner
+{
+ background-image: linear-gradient(to top right,red, #f06d06);
+ height: 400px;
+ text-align: center;
+ padding: 20px;
+}
+.bannerhead
+{
+  width: 95%;
+  height: 340px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  background: rgba(142,133,133,0.5);
+  overflow-y: auto;
+  box-shadow: 1px 9px 1px 0px gray;
+}
+.bannerhead h2
+{
+color: white;
+letter-spacing: 3px;
+font-size: 32px;
+}
+.bannerhead p
+{
+  color: black;
+  font-style: italic;
+  text-align: left;
+}
+/**/
+
+/*Media Queries start here*/
 @media (max-width: 768px)
 {
   .navadj
@@ -25,7 +63,7 @@
 </style>
 <body>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" style=" margin-bottom: 0px;">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">WebSiteName</a>
@@ -38,9 +76,15 @@
   </div>
 </nav>
   
-<div class="container">
-  
-</div>
+<section class="banner">
+  <div class="container">
+    <div class="bannerhead">
+      <h2>Welcome to the Sample World</h2>
+      <p>Sample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample Text Sample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample TextSample Text</p>
+    </div> 
+
+  </div><!-- container -->
+</section><!-- banner ends here -->
 
 </body>
 </html>
