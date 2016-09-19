@@ -50,7 +50,32 @@ font-size: 32px;
   text-align: left;
 }
 /**/
-
+/*classes for services section start here*/
+.services
+{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  text-align: center;
+}
+.servicebox
+{
+  background: rgba(128, 14, 14, 0.5);
+    border-radius: 8px;
+    box-shadow: 0px 6px 8px 0px gray;
+    margin-bottom: 20px;
+  color: white;
+  height: 200px;
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+.servicebox p
+{
+  text-align: left;
+}
+/**/
 /*Media Queries start here*/
 @media (max-width: 768px)
 {
@@ -75,8 +100,8 @@ font-size: 32px;
     </ul>
   </div>
 </nav>
-  
-<section class="banner">
+<!-- navbar ends here -->  
+<section class="banner" id="home">
   <div class="container">
     <div class="bannerhead">
       <h2>Welcome to the Sample World</h2>
@@ -85,6 +110,30 @@ font-size: 32px;
 
   </div><!-- container -->
 </section><!-- banner ends here -->
+
+
+<section id="services">
+  <div class="container-fluid">
+    <div class="services">
+    <h2>Services</h2>
+    <p>&nbsp;</p>
+      <div class="col-md-6">
+          <div class="servicebox">
+             <span class="glyphicon glyphicon-leaf" style="color:green; font-size:55px;margin-bottom:15px;"></span>
+             <p>Hello, This is our first Service. We take it high for a hifi..!! Hello, This is our first Service. We take it high for a hifi..!!  </p>
+          </div>
+      </div> 
+
+      <div class="col-md-6">
+          <div class="servicebox">
+            <span class="glyphicon glyphicon-leaf" style="color:green; font-size:55px;margin-bottom:15px;"></span>
+             <p>Hello, This is our first Service. We take it high for a hifi..!! Hello, This is our first Service. We take it high for a hifi..!!  </p>
+          </div>
+      </div> 
+    
+    </div><!-- services class -->    
+  </div><!-- container-fluid -->
+</section><!-- services ends here -->
 
 </body>
 </html>
