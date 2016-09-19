@@ -1,0 +1,109 @@
+/*class written for navbar*/
+.navadj
+{
+  float: right;
+
+}
+/**/
+
+/*classes for banner */
+.banner
+{
+ background-image: linear-gradient(to top right,red, #f06d06);
+ height: 400px;
+ text-align: center;
+ padding: 20px;
+}
+.bannerhead
+{
+  width: 95%;
+  height: 340px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  background: rgba(142,133,133,0.5);
+  overflow-y: auto;
+  box-shadow: 1px 9px 1px 0px gray;
+}
+.bannerhead h2
+{
+color: white;
+letter-spacing: 3px;
+font-size: 32px;
+}
+.bannerhead p
+{
+  color: black;
+  font-style: italic;
+  text-align: left;
+}
+/**/
+/*classes for services section start here*/
+.services
+{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  text-align: center;
+}
+.servicebox
+{
+  background: rgba(128, 14, 14, 0.5);
+    border-radius: 8px;
+    box-shadow: 0px 6px 8px 0px gray;
+    margin-bottom: 20px;
+  color: white;
+  height: 200px;
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+.servicebox p
+{
+  text-align: left;
+}
+/**/
+/*classes for why us section*/
+.whyus
+{
+  background: #150202;
+  color: white;
+  padding: 35px;
+}
+
+.whyushead
+{
+  width: 95%;
+  height: 340px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  background: rgba(142,133,133,0.5);
+  overflow-y: auto;
+  //box-shadow: 1px 9px 1px 0px gray;
+}
+/**/
+/*footer classes starrt here*/
+.footdesign
+{
+  height: 58px;
+  text-align: center;
+  //width: 100%;
+  background: gray;
+  color: white;
+  padding: 15px;
+  letter-spacing: 4px;
+}
+/**/
+/*Media Queries start here*/
+@media (max-width: 768px)
+{
+  .navadj
+  {
+    float:none;  
+  }
+  
+}
